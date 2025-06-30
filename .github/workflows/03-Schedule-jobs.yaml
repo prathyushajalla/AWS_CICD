@@ -5,7 +5,7 @@ on:
 
 jobs:
   Cron_Job:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Cron Job
         run: echo "I have been triggered by ${{ github.event_name }}"
