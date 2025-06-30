@@ -1,12 +1,11 @@
 name: 03-Schedule Jobs
 on:
   schedule:
-  - cron: '*/5 * * * *'
+    - cron: '*/5 * * * *'
 
 jobs:
-
   Cron_Job:
-        runs-on: mac-latest
-        steps:
-            - name: Cron Job
-              run:  echo "I have been triggered by ${{github.event_name}}"    
+    runs-on: macos-latest
+    steps:
+      - name: Cron Job
+        run: echo "I have been triggered by ${{ github.event_name }}"
