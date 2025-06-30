@@ -6,3 +6,4 @@ jobs:
         steps:
             - name: Manual CICD
               run: echo "I have been triggered by ${{github.event_name}}"
+         
