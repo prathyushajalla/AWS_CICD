@@ -3,6 +3,10 @@ name: 01 - Building Blocks
 on:
   workflow_dispatch:
 
+permissions:
+  id-token: write
+  contents: read
+      
 jobs:
   terraform:
     runs-on: ubuntu-latest
