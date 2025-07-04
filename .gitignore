@@ -1,5 +1,5 @@
 # Ignore all .terraform directories anywhere in the repo
-#**/.terraform/
+**/.terraform/
 
 # Ignore Terraform state files and backups
 *.tfstate
